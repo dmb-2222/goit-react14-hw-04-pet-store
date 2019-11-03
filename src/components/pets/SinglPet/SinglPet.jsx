@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from 'prop-types';
+
 const SinglPet = ({pet}) => {
     const {image,name,age,breed,gender,color,description } = pet
   return (
@@ -13,3 +15,7 @@ const SinglPet = ({pet}) => {
   );
 };
 export default SinglPet;
+
+SinglPet.propTypes = {
+  pet:PropTypes.object.isRequired,
+}

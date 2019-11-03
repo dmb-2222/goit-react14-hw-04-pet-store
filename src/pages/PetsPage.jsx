@@ -1,7 +1,7 @@
 import React from "react";
-import Pet from "../pets/Pet/Pet";
+import Pet from "../components/pets/Pet/Pet";
 import pets from "../pets.json";
-import styles from "../style.module.css";
+import styles from "../components/style.module.css";
 
 const PetsPage = () => {
 

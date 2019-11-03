@@ -1,7 +1,6 @@
 import React from "react";
 import pets from "../pets.json";
-import SinglPet from '../pets/SinglPet/SinglPet'
-// import styles from '../style.module.css'
+import SinglPet from '../components/pets/SinglPet/SinglPet'
 
 const getIdProps = props => props.match.params.petId;
 

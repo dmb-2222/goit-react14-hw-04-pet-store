@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import Header from './components/Header'
-import HomePage from "./components/pages/HomePage";
-import AboutPage from "./components/pages/AboutPage";
-import PetPage from "./components/pages/PetPage";
-import PetsPage from "./components/pages/PetsPage";
-import ErrorPage from './components/pages/ErrorPage'
+import Header from './components/pets/Header'
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import PetPage from "./pages/PetPage";
+import PetsPage from "./pages/PetsPage";
+import ErrorPage from './pages/ErrorPage'
 
 
 const App = () => (
